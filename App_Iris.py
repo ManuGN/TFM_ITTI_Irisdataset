@@ -8,6 +8,7 @@ from sklearn.datasets import load_iris
 import streamlit as st
 import pandas as pd
 import pickle
+from pickle import dump
 from PIL import Image
 
 
@@ -17,7 +18,7 @@ from PIL import Image
 species = ['setosa', 'versicolor', 'virginica']
 image = ['setosa.jpg', 'versicolor.jpg', 'virginica.jpg']
 with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
+     model = pickle.load(f)
 
 
 # In[3]:
