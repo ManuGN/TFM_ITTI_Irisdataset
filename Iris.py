@@ -8,9 +8,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 from PIL import Image
-from sklearn.ensemble import RandomForestClassifier
-
-
 # In[2]:
 
 
